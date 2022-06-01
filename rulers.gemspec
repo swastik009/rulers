@@ -17,7 +17,8 @@ Gem::Specification.new do |spec|
 
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib", "lib/rulers"]
+  spec.files = Dir['lib/**/*.rb']
+  spec.require_paths = ["lib", "lib/rulers.rb"]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
