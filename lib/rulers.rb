@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "rulers/version"
-require_relative "./rulers/array"
+require_relative "rulers/array"
 
 module Rulers
   class Application
